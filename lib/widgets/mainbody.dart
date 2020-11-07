@@ -5,8 +5,6 @@ class MainBody extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen()
-        // hjhj jhhjh j h
-        );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
   }
 }

@@ -44,6 +44,7 @@ class _WhellFortuneState extends State<WhellFortune>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.pink,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
@@ -69,7 +70,7 @@ class _WhellFortuneState extends State<WhellFortune>
                     child: Padding(
                       padding: const EdgeInsets.only(top: 36.0),
                       child: Text(
-                        "Quick opportunity",
+                        "Азын хүрд",
                         style: TextStyle(fontSize: 18, color: Colors.white),
                       ),
                     ),
@@ -95,7 +96,7 @@ class _WhellFortuneState extends State<WhellFortune>
           height: 84,
           width: 84,
           child: Text(
-            "START",
+            "ЭХЛЭХ",
             style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
         ),
@@ -146,7 +147,7 @@ class _WhellFortuneState extends State<WhellFortune>
             "Бидэнтэй нэгдэцгээ!!!",
             style: TextStyle(color: Colors.white, fontSize: 20),
           ),
-          onPressed: () => Nav.route(context, MainBody()),
+          onPressed: () => Nav.route(context, HomeScreen()),
           color: Color.fromRGBO(0, 179, 134, 1.0),
         ),
       ],
