@@ -1,4 +1,4 @@
-#Sat Nov 07 22:12:39 ULAT 2020
+#Mon Nov 09 23:50:50 ULAT 2020
 base.0=D\:\\Dev\\projects\\yourshopmn\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
